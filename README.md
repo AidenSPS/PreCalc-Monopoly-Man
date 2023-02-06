@@ -18,5 +18,5 @@ Where I got the reference from as well as the idea for each piece: {
 	https://coolmaterial.com/home/games/the-story-behind-monopoly-pieces/
 }
 
-Want to see more repositories from me? Want to check the validity of my sources? Check out my Github at: AidenSPS
+Want to see more repositories from me? Want to check the validity of my sources? Check out my Github at: https://github.com/AidenSPS
 
