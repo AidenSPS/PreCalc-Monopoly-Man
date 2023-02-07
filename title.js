@@ -6,3 +6,7 @@ function sourceInformation(){
 function startStory(){
     document.location = 'story.html';
 }
+
+function toGraphs(){
+    document.location = "graphs.html";
+}

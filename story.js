@@ -1,12 +1,17 @@
 //DOM Elements
 var storyText = document.getElementById("storyText");
 var progressCounter = 1;
+var graphButton = document.createElement("button");
+graphButton.id = "graphs";
+graphButton.innerText = "Graphs and Characteristics"
+graphButton.setAttribute("onclick","toGraph()");
+document.body.appendChild(graphButton);
 
 
 
 //Global Variables
     //Arrays
-    var storyStrings = ["One Day while walking to a Mc. Donalds on Old Kent Road, Mr. Monopoly saw a man buy the place with cash he had on him.",
+    var storyStrings = [
     "He had a very expensive breed of dog and cat. And had an insane pure solid 24k gold race car. He was so rich, when he walked away from his newly acquired property, 500 dollar bills came out of his pockets with every step he took.",
     "Then before the billionaire could leave, he asked him “Good sir, how did you get all this money ?”",
     "“I simply started my own businesses and then waited for the money from the company to trickle in. I invented the steam engine and so my value for the company skyrocketed.”",
@@ -22,11 +27,26 @@ var progressCounter = 1;
     "Then he finally decides, I should put my money into the bank and inspire others to go down the path I once did.",
     "He then starts to deposit his remaining money into his newly acquired bank account and after 10 turns around, he finally puts all of his money into his bank account (excluding the 2000 he made, that's pocket money because he has so much money he doesn’t care).",
     "He then uses that money to buy the fastest Racecar, a rare breed of dog called the “Scottie Dog'', a Cat and a Penguin to keep himself and his house on Old Kent Road company.",
-    "Thats all folks, how to make money the monopoly way from Mr. Monopoly. The End"
+    "Thats all folks, how to make money the monopoly way from Mr. Monopoly. The End",
+    "Please click the Button called, Graphs and Characteristics to see my work and characteristics"
 ];
 
 //Functions relevant to the story and plot
 function tellStory(){
+    progressChecker();
     storyText.innerText = storyStrings[progressCounter];
-    progressCounter++
+}
+
+function progressChecker(){
+    if(progressCounter > storyStrings.length){
+        
+    }
+    else{
+        progressCounter++
+    }
+}
+
+
+function toGraph(){
+    document.location = 'graphs.html';
 }
