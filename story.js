@@ -5,9 +5,10 @@
 
 
 //Paragraph tags for storyX.html
-
+var storyText = document.getElementById("storyText");
 function startStory(){
     document.location = 'story1.html';
+    storyText.innerText = "One Day while walking to a Mc. Donalds on Old Kent Road, Mr. Monopoly saw a man who had a lot of money buy the place with cash he had on him."
 }
 
 function sourceInformation(){
