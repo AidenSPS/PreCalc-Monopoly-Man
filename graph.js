@@ -17,16 +17,11 @@ function duckGraph(){
 }
 
 function thimbleGraph(){
-    thimbleClac.style.display = "block";
+    thimbleCalc.style.display = "block";
     thimbleButton.style.display = "none";
 }
 
 function depositGraph(){
-    depositCalc.style.display = "block";
-    depositButton.style.display = "none";
-}
-
-function depositTable(){
     depositCalc.style.display = "block";
     depositButton.style.display = "none";
 }

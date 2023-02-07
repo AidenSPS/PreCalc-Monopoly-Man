@@ -1,18 +1,10 @@
 
 /*Everything for graph.html*/
-#duckCalc{
+#duckCalc, #thimbleCalc, #depositCalc{
     display: none;
+    width: 1000px;
+    length: 600px;
 }
-#thimbleCalc{
-    display: none;
-}
-#depositCalc{
-    display: none;
-}
-#tableCalc{
-    display: none;
-}
-
 /*Everything for story.html*/
 
 
