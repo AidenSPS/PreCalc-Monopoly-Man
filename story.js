@@ -48,5 +48,5 @@ function progressChecker(){
 
 
 function toGraph(){
-    document.location = 'graphs.html';
+    document.location = 'graph.html';
 }

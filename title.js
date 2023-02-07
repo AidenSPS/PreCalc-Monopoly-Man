@@ -8,5 +8,5 @@ function startStory(){
 }
 
 function toGraphs(){
-    document.location = "graphs.html";
+    document.location = "graph.html";
 }
