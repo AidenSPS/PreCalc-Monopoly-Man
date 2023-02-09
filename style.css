@@ -5,8 +5,21 @@
     width: 1000px;
     length: 600px;
 }
-/*Everything for story.html*/
 
+#graphBody{
+
+}
+
+li {
+    font-size: 14pt;
+}
+/*Everything for story.html*/
+#storyBody{
+
+}
 
 
 /*Everything for title.html*/
+#titleBody{
+    background-image: url();
+}

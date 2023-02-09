@@ -25,3 +25,7 @@ function depositGraph(){
     depositCalc.style.display = "block";
     depositButton.style.display = "none";
 }
+
+function backHome(){
+    document.location = "title.html";
+}

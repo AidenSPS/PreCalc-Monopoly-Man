@@ -6,7 +6,8 @@ graphButton.id = "graphs";
 graphButton.innerText = "Graphs and Characteristics"
 graphButton.setAttribute("onclick","toGraph()");
 document.body.appendChild(graphButton);
-
+var imageChanger = document.getElementById("imageChanger");
+var dog = document.getElementById("dogImage");
 
 
 //Global Variables
@@ -34,15 +35,36 @@ document.body.appendChild(graphButton);
 //Functions relevant to the story and plot
 function tellStory(){
     progressChecker();
+    changeImage();
     storyText.innerText = storyStrings[progressCounter];
 }
 
 function progressChecker(){
     if(progressCounter > storyStrings.length){
-        
+        storyText.innerText = storyStrings[17];
     }
     else{
         progressCounter++
+    }
+}
+
+function changeImage(progressCounter){
+    switch(progressCounter){
+        case 1: //Starting out at Mc.Donalds
+            imageChanger.setAttribute("src","mcDonalds.jfif");
+        case 4: //Starting to build company
+            imageChanger.setAttribute("src","rubberDuckies.jpg");
+        case 5: //Top Hat
+            imageChanger.setAttribute("src","topHat.png");
+        case 9: //THE THIMBLE
+            imageChanger.setAttribute("src","thimble.jpg");
+        case 12: //Deposit at the bank
+            imageChanger.setAttribute("src","bank.jpg");
+            dog.setAttribute("src","storyMonopoly.jpg");
+        case 14:
+            imageChanger.setAttribute("src","goldCar.png");
+            dog.setAttribute("src","scottieDog.png");
+
     }
 }
 
