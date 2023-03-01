@@ -23,3 +23,16 @@ li {
 #titleBody{
     background-image: "titleBackground.png";
 }
+
+h1{
+    text-align: center;
+}
+p{
+    font-size: 14pt;
+    text-align: center;
+}
+button{
+    margin: auto;
+    display: flex;
+}
+
