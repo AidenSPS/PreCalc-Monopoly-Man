@@ -1,29 +1,16 @@
-
 /*Everything for graph.html*/
 #duckCalc, #thimbleCalc, #depositCalc{
     display: none;
     width: 1000px;
     length: 600px;
 }
-
-#graphBody{
-
-}
-
 li {
     font-size: 14pt;
 }
-/*Everything for story.html*/
-#storyBody{
-
-}
-
-
 /*Everything for title.html*/
 #titleBody{
     background-image: "titleBackground.png";
 }
-
 h1{
     text-align: center;
 }
