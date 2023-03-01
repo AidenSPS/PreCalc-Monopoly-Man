@@ -27,5 +27,5 @@ function depositGraph(){
 }
 
 function backHome(){
-    document.location = "title.html";
+    document.location = "index.html";
 }
